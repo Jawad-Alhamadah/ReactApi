@@ -13,7 +13,7 @@ function App() {
     }, [])
     return (
         <>
-            <div className='flex flex-wrap gap-4 max-sm:justify-center overflow-hidden'>
+            <div className='flex flex-wrap gap-4 justify-center overflow-hidden'>
                 {products && products.map(p => {
 
 
